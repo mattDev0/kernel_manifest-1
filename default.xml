@@ -2,7 +2,7 @@
 <manifest>
     <remote name="mine"
             fetch="https://android.googlesource.com/"
-            revision="refs/heads/refs/heads/master-kernel-build-2021" />
+            revision="refs/heads/master-kernel-build-2021" />
     <remote name="hentai"
             fetch="https://github.com/mattDev0/"
             revision="refs/heads/TwistedScarlett" />
