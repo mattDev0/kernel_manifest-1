@@ -22,12 +22,7 @@
     <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="kernel/msm-modules/qca-wfi-host-cmn" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/wlan/qcacld-3.0" name="kernel/msm-modules/qcacld" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/wlan/fw-api" name="kernel/msm-modules/wlan-fw-api" groups="partner" remote="aosp" />
-    <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" revision="b2a189331333e014bfef4c0425b3ef4b74accdd0" remote="aosp" />
-    <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="4bb6424cb1615af408ae80871131f4da8c4ddadf" clone-depth="1" groups="partner" remote="aosp" />
-    <project path="prebuilts-master/misc" name="platform/prebuilts/misc" revision="pie-release" clone-depth="1" groups="partner" remote="aosp" />
-    <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="34bc8bfb493401f7aadbd3b434f9fbfa521e9301" groups="partner" remote="aosp" />
-    <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="cfedc16ec3deb680fca6fe2aff44a1837a97b50d" groups="partner" remote="aosp" />
-    <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="a5fcf02304b51f43d2c8bfd587e26755e3ce2701" groups="partner" remote="aosp" />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="partner" remote="mine" />
-    <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="partner" remote="mine" /> 
+    <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="partner" remote="mine" />
+    <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="partner" remote="mine" />
 </manifest>
