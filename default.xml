@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-    <remote name="aosp"
-            fetch="https://android.googlesource.com/"
-            revision="refs/tags/android-13.0.0_r0.3" />
     <remote name="mine"
             fetch="https://android.googlesource.com/"
-            revision="refs/heads/android-arm64-deadpool-4.9-android13-tv" />
+            revision="refs/heads/refs/heads/master-kernel-build-2021" />
     <remote name="hentai"
             fetch="https://github.com/mattDev0/"
             revision="refs/heads/TwistedScarlett" />
     <default sync-j="4" />
 
-    <project path="build" name="kernel/build" revision="8c0966a12f3ab946e6e91ce20e581953d36434c1" groups="partner" remote="aosp" />
+    <project path="build" name="kernel/build" groups="partner" remote="mine" />
     <project path="private/msm-google" name="android_kernel_google_msm-4.9" groups="partner" remote="hentai">
         <linkfile src="build.config.bonito" dest="build.config" />
         <linkfile src="build_bluecross.sh" dest="build_bluecross.sh" />
         <linkfile src="build_bonito.sh" dest="build_bonito.sh" />
     </project>
-    <project path="private/msm-google/techpack/audio" name="kernel/msm-extra" groups="partner" remote="aosp" />
-    <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="kernel/msm-modules/qca-wfi-host-cmn" groups="partner" remote="aosp" />
-    <project path="private/msm-google-modules/wlan/qcacld-3.0" name="kernel/msm-modules/qcacld" groups="partner" remote="aosp" />
-    <project path="private/msm-google-modules/wlan/fw-api" name="kernel/msm-modules/wlan-fw-api" groups="partner" remote="aosp" />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="partner" remote="mine" />
     <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="partner" remote="mine" />
     <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="partner" remote="mine" />
