@@ -4,6 +4,9 @@
     <remote name="aosp"
             fetch="https://android.googlesource.com/"
             revision="refs/tags/android-13.0.0_r0.3" />
+    <remote name="mine"
+            fetch="https://android.googlesource.com/"
+            revision="refs/heads/android-arm64-deadpool-4.9-android13-tv" />
     <remote name="hentai"
             fetch="https://github.com/mattDev0/"
             revision="refs/heads/TwistedScarlett" />
@@ -25,4 +28,6 @@
     <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="34bc8bfb493401f7aadbd3b434f9fbfa521e9301" groups="partner" remote="aosp" />
     <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="cfedc16ec3deb680fca6fe2aff44a1837a97b50d" groups="partner" remote="aosp" />
     <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="a5fcf02304b51f43d2c8bfd587e26755e3ce2701" groups="partner" remote="aosp" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="partner" remote="mine" />
+    <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="partner" remote="mine" /> 
 </manifest>
