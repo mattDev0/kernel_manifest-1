@@ -17,8 +17,8 @@
     <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="kernel/msm-modules/qca-wfi-host-cmn" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/wlan/qcacld-3.0" name="kernel/msm-modules/qcacld" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/wlan/fw-api" name="kernel/msm-modules/wlan-fw-api" groups="partner" remote="aosp" />
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="android12L-release" groups="partner" remote="aosp" />
-    <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="android12L-release" groups="partner" remote="aosp" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="8aae3082fae290782c773eba621a3089f5496bc6" groups="partner" remote="aosp" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="73294fbe20650c0fddb9acb1650aff26e137a27c" groups="partner" remote="aosp" />
     <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="a7a77c4dbf0b450af4cda159efc2d37adcf2a8d4" groups="partner" remote="aosp" />
     <project path="prebuilts-master/misc" name="platform/prebuilts/misc" revision="9ad410830b59a9c1bd04ae4d152e145ed57953a8" groups="partner" remote="aosp" />
 </manifest>
