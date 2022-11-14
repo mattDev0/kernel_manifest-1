@@ -2,7 +2,7 @@
 <manifest>
     <remote name="aosp"
             fetch="https://android.googlesource.com/"
-            revision="refs/tags/android-13.0.0_r0.14" />
+            revision="refs/tags/android-13.0.0_r0.13" />
     <remote name="hentai"
             fetch="https://github.com/mattDev0/"
             revision="refs/heads/TwistedScarlett" />
