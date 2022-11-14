@@ -14,7 +14,7 @@
         <linkfile src="build_bluecross.sh" dest="build_bluecross.sh" />
         <linkfile src="build_bonito.sh" dest="build_bonito.sh" />
     </project>
-    <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="qca-wfi-host-cmn" groups="partner" remote="aosp" />
+    <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="kernel/msm-modules/qca-wfi-host-cmn" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/wlan/qcacld-3.0" name="kernel/msm-modules/qcacld" groups="partner" remote="aosp" />
     <project path="private/msm-google-modules/wlan/fw-api" name="kernel/msm-modules/wlan-fw-api" groups="partner" remote="aosp" />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="android12L-release" groups="partner" remote="aosp" />
